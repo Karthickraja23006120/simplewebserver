@@ -21,7 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-'''
+```
 <html>
 <html lang="en">
 <head>
@@ -111,8 +111,8 @@ server_address=('',8000)
 httpd=HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-'''
-## OUTPUT:
+```
+### OUTPUT:
 ![Screenshot 2024-03-25 155722](https://github.com/Karthickraja23006120/simplewebserver/assets/139335315/b5950301-98f0-4bc0-965e-4336db73ef5c)
 ![Screenshot 2024-03-25 155736](https://github.com/Karthickraja23006120/simplewebserver/assets/139335315/3ed7561c-2522-4a86-bae8-49a64f25ea2b)
 
